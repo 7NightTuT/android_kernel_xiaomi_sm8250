@@ -799,3 +799,6 @@ CONFIG_PID_NS=y
 
 # 硬件访问
 CONFIG_DEVTMPFS=y
+
+# 关闭susfs
+CONFIG_KSU_SUSFS=n
