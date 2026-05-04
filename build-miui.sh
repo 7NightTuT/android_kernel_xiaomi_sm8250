@@ -232,6 +232,8 @@ scripts/config --file out/.config \
     -d REKERNEL \
     -d REKERNEL_NETWORK
 
+cat ./drivers/kernelsu/Kbuild
+
 make $MAKE_ARGS -j$(nproc)
 
 
