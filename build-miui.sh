@@ -194,6 +194,7 @@ if [ $KSU_ENABLE -eq 1 ]; then
     -d KSU_SUSFS_OPEN_REDIRECT \
     -d KSU_SUSFS_SUS_MAP \
     -d KSU_MULTI_MANAGER_SUPPORT \
+    -d KSU_TRACEPOINT_HOOK \
     -e KPM
 else
     scripts/config --file out/.config -d KSU
